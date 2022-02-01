@@ -1,0 +1,35 @@
+.employee-dashboard{
+    font-family: var(--font-family);
+}
+
+.profile-employee-container{
+    margin-top:1rem;
+}
+
+.employee-details-container {
+    margin-top:2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.details {
+    margin-bottom:2rem;
+}
+
+.employee-details-container p {
+    margin-top:0.5rem;
+}
+
+.employee-details-container h2 {
+    color:#145ED9;
+}
+
+@media screen and (max-width:750px) {
+    .employee-details-container{
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+    }
+}

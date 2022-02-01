@@ -1,0 +1,48 @@
+.table-wrap {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    overflow-x: scroll;
+}
+
+table{
+    min-width: 900px;
+    width:100%;
+    background-color: #f2f5f7f8;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th, table tr, tr td {
+    border:none;
+    border-bottom: 8px solid #f2f5f7f8;
+}
+
+th{
+    background-color: #145ED9;
+    color:#fff;
+    height: 60px;
+}
+
+tr {
+    background-color: #fff;
+    
+}
+
+td {
+    height:75px;
+}
+
+.border-table-item{
+    border-bottom: 5px solid #f2f5f7f8;
+}
+
+tr:hover{
+    background-color: #222121;
+    color:#fff;
+}
+
+.btn-delete{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}

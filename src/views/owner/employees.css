@@ -1,0 +1,15 @@
+.employees-view{
+    font-family: var(--font-family);
+}
+
+.employees-list-container{
+    margin-top:2rem;
+    text-align: center;
+}
+
+/*.employees-list-container h2{
+    margin-bottom: 1rem;
+    color:#145ED9;
+    margin-top:1rem;
+}*/
+

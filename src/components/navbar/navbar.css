@@ -1,0 +1,146 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color:#242222;
+}
+
+.navbar-logo{
+    display: flex;
+    justify-content: 'flex-start';
+    align-items:center;
+}
+
+
+.logo-style{
+    margin-right:1rem;
+    height:45px;
+}
+
+.navbar-links-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*.navbar-link-log-reg{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}*/
+
+.navbar-links-container p,
+.navbar-link-end p,
+.navbar-menu p {
+    font-family: var(--font-family);
+    font-size:18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:#fff;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.btn-sign{
+    padding: 0.7rem 1.2rem;
+    background-color: #145ED9;
+    color:#fff;
+    font-family: var(--font-family);
+    font-size:18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    border:none;
+}
+
+.btn-sign:hover{
+    color:#145ED9;
+    background-color: #fff;
+    transition:0.5s;
+}
+
+.navbar-menu{
+    margin-left:1rem;
+    display:none;
+    
+}
+
+.navbar-menu svg{
+    cursor:pointer;
+}
+
+.navbar-menu-container{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color:#fff;
+    text-align: center;
+    opacity:0.9;
+    background-color: #145ED9;
+    position: absolute;
+    top:61px;
+    right:0;
+    margin-top:1rem;
+    min-width:100%;
+    padding-bottom: 1rem ;
+    
+    
+}
+
+.navbar-menu-container p {
+    margin:1rem 0;
+    font-family: var(--font-family);
+
+}
+
+.navbar-menu-link-end {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar-links-container{
+        display:none;
+    }
+
+    .navbar-menu{
+        display:flex;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar{
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar{
+        padding: 2rem;
+    }
+
+    .navbar-link-end{
+        display: none;
+    }
+
+    .navbar-menu-container {
+        top:92px;
+    }
+
+    .navbar-link-end button{
+        color:#fff;
+        background-color: #131010;
+    }
+
+    .navbar-link-end button:hover{
+        background-color: #fff;
+        color:#145ED9;
+    } 
+
+    .navbar-menu-link-end{
+        margin-top:1rem;
+        display: block;
+        
+    }
+}

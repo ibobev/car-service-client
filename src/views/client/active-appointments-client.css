@@ -1,0 +1,27 @@
+.client-active-appointments-wrap{
+    font-family: var(--font-family);
+}
+
+.client-appointments-header{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #fff;
+    background-color: #145ED9;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    border-radius: 18px;
+}
+
+.no-accepted-appointments-msg{
+    text-align: center;
+}
+
+@media screen and (max-width:850px) {
+    .client-appointments-header{
+        width:90%;
+    }
+   
+}

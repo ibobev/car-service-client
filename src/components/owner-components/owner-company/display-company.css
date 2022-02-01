@@ -1,0 +1,32 @@
+.wrap-company-details {
+    width: 300px;
+}
+
+.company-details-card {
+    text-align: center;
+}
+
+.company-details-card h2 {
+    color:#145ED9;
+}
+
+.btn-delete-company{
+    border:none;
+    margin-top:0.5rem;
+    /*margin-bottom:0.5rem;*/
+    cursor: pointer;
+    /*background-color: #fff;*/
+    
+}
+
+.no-details {
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:750px) {
+    .wrap-company-details {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

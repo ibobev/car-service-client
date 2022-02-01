@@ -1,0 +1,58 @@
+#about{
+    height:550px; 
+    border-top: 4px solid #145ED9; 
+}
+
+.strong-txt{
+    font-weight: bold;
+}
+
+.center-txt-container{
+    margin-top:4rem;
+    text-align: center;
+}
+
+.div-space{
+    width:100%;
+    height:100px;
+    background-color: #131010;
+}
+
+.parallax{
+    background-image: url("../../assets/home/road5.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.about-container{
+    z-index: 2;
+    position:absolute;
+    width: 50%;
+    height: 580px;
+    background-color: #131010;
+    opacity:0.8;
+    font-family: var(--font-family);
+    color:#fff;
+    padding:2rem 1rem;
+   
+}
+
+.about-container h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.add-margin{
+    margin-top:1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .about-container{
+        width:100%;
+    }
+}

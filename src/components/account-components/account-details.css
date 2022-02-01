@@ -1,0 +1,50 @@
+
+.border-line{
+    width:70%;
+    border-bottom:1px solid #d0d3d0;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.account-details-card{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    padding-bottom:1rem;
+}
+
+.account-details{
+    display: flex;
+    flex-direction: column;
+    margin:0 2.2rem;
+    
+}
+
+.names-container{
+    display:inline-flex;
+}
+
+.names-container p {
+    margin:0.5rem;
+    font-weight: bold;
+    font-size: 1.7rem ;
+}
+
+.email-container{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.initial-letter-box{
+    display: flex;
+    background-color: #145ED9;
+    width:80px;
+    height:80px;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 3.2rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,66 @@
+.employee-tasks-container {
+    font-family: var(--font-family);
+}
+
+.employee-tasks-container h1 {
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #145ED9;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.wrap-active-appointments {
+
+    margin-top: 2rem;
+}
+
+.active-appointment-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 3rem;
+}
+
+.no-daily-tasks-msg {
+    text-align: center;
+}
+
+.complete-form-wrap {
+    font-family: var(--font-family);
+    margin-top: 2rem;
+}
+
+.appointment-details-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inside-complete-form-wrap {
+    text-align: center;
+}
+
+/*.complete-appointment-form {
+    
+}*/
+
+.h2-complete-form {
+    margin-top: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+@media screen and (max-width:850px) {
+    .active-appointment-container{
+        flex-direction: column;
+        justify-content: center;
+    } 
+   
+}

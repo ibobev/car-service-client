@@ -1,0 +1,82 @@
+.wrap-details-calendar {
+    margin:2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.csc-details-container {
+    font-family: var(--font-family);
+}
+
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.h2-error {
+    border-radius: 12px;
+    padding: 2rem;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+.wrap-csc-details {
+    margin:0 1rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 3rem;
+
+}
+
+.csc-card {
+    border-top: 3px solid #145ED9;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.csc-card h2 {
+    color: #145ED9;
+}
+
+.icon-box-csc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.icon-csc {
+    color: #145ED9;
+}
+
+.calendar-wrap {
+    margin:0 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    border-top: 3px solid #145ED9;
+    width: 50%;
+}
+
+.appointment-form-wrap {
+    margin:0 1rem;
+    padding:1rem 2rem;
+    background-color: #fff;
+    border-top: 3px solid #145ED9;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    width:20%;
+}
+
+input:invalid+span:after {
+    content: '✖';
+    color: red;
+}
+
+input:valid+span:after {
+    content: '✓';
+    color: green;
+}

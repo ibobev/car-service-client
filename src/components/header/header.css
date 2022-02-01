@@ -1,0 +1,41 @@
+.header-landing{
+   width:100%;
+   padding: 5.5rem;
+   /*background-color: #145ED9;
+   color:#fff;*/
+   color:#000;
+   font-family: var(--font-family);
+   font-size: 20px;
+   text-transform:uppercase;
+   text-align: center;
+   margin-bottom:2rem;
+   
+}
+
+.down-arrow{
+    font-size:1.8rem;
+    color:#145ED9;
+}
+
+.car-img{
+    max-width:100%;
+    height:auto;
+    filter:drop-shadow(8px 8px 15px grey);
+}
+
+@media screen and (max-width: 1050px) {
+
+}
+
+@media screen and (max-width: 700px) {
+    .header-landing{
+        padding: 4rem;
+        font-size:16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header-landing{
+        padding: 3rem;
+    }
+}

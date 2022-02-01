@@ -1,0 +1,8 @@
+.serviced-company-container{
+    font-family:var(--font-family);
+    margin-top:2rem;
+}
+
+.serviced-company-container p {
+    text-align: center;
+}

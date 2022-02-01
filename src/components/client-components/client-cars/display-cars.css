@@ -1,0 +1,35 @@
+.cars-wrap{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns:repeat(2, 1fr);
+    justify-content: center;
+    margin-bottom:1rem;
+    /*background-image: linear-gradient(45deg, #c4c7c3 16.22%, #f2f5f7 16.22%, #f2f5f7 50%, #c4c7c3 50%, #c4c7c3 66.22%, #f2f5f7 66.22%, #f2f5f7 100%);
+    background-size: 52.33px 52.33px;*/
+}
+.car-details-container{
+    text-align: center;
+    padding:0.5rem 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-top:2px solid #145ED9;
+    border-bottom:2px solid #145ED9;
+}
+
+.car-details-container h2 {
+    color: #145ED9;
+}
+
+.btn-delete-car{
+    border:none;
+    margin-top:0.5rem;
+    cursor: pointer;
+    background-color: #fff;
+    
+}
+
+@media screen and (max-width:550px) {
+    .cars-wrap{
+        grid-template-columns: auto;
+    }
+}

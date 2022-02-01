@@ -1,0 +1,25 @@
+.client-dashboard{
+    font-family: var(--font-family);
+}
+
+.profile-client-container{
+    margin-top:1rem;
+}
+
+.car-container {
+    margin-top:2rem;
+    margin-left:1rem;
+    margin-right: 1rem;
+    display:flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+@media screen and (max-width:750px) {
+    .car-container{
+        flex-direction: column;
+        /*text-align: center;
+        justify-content: center;*/
+        gap:0;
+    }
+}
